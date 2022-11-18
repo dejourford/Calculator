@@ -1,0 +1,60 @@
+body {
+   
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.firstRowNumberButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.secondRowNumberButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 95px;
+    padding: 0px;
+     
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.operations
+button:hover {
+    background-color: red;
+}
+
+.operations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-around;
+    
+
+}
